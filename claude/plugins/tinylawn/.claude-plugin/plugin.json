@@ -20,5 +20,7 @@
   ],
   "repository": "https://github.com/tinylawn/tinylawn-plugins",
   "license": "MIT",
-  "displayName": "Tinylawn"
+  "displayName": "Tinylawn",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://gettinylawn.com/privacy"
 }
