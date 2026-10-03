@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tinylawn": {
+      "type": "http",
+      "url": "https://app.gettinylawn.com/mcp"
+    }
+  }
+}

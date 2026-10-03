@@ -1,0 +1,20 @@
+{
+  "name": "tinylawn-test",
+  "interface": {
+    "displayName": "Tinylawn Test"
+  },
+  "plugins": [
+    {
+      "name": "tinylawn",
+      "source": {
+        "source": "local",
+        "path": "./openai/plugins/tinylawn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tinylawn",
+  "description": "Tinylawn AI receptionist and answering service call context for Claude.",
+  "owner": {
+    "name": "Tinylawn",
+    "email": "support@gettinylawn.com"
+  },
+  "plugins": [
+    {
+      "name": "tinylawn",
+      "source": "./claude/plugins/tinylawn",
+      "description": "Review calls and saved summaries from Tinylawn, an AI receptionist and answering service for landscaping, lawn care, and pest control businesses.",
+      "category": "productivity"
+    }
+  ]
+}

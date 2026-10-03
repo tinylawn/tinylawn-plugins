@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tinylawn",
+  "version": "1.0.0",
+  "description": "Review calls and saved summaries from Tinylawn, an AI receptionist and answering service for landscaping, lawn care, and pest control businesses.",
+  "author": {
+    "name": "Tinylawn",
+    "email": "support@gettinylawn.com",
+    "url": "https://gettinylawn.com"
+  },
+  "homepage": "https://gettinylawn.com",
+  "keywords": [
+    "tinylawn",
+    "ai receptionist",
+    "answering service",
+    "landscaping",
+    "lawn care",
+    "pest control",
+    "calls",
+    "summaries"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Tinylawn",
+        "shortDescription": "Review AI receptionist calls",
+        "longDescription": "Tinylawn is an AI receptionist and answering service for landscaping, lawn care, pest control, and other outdoor service businesses. Connect Tinylawn to ChatGPT to review recent calls and saved summaries, understand what callers needed, identify follow-up opportunities, and use call context in conversations or workflows with other enabled tools. Tinylawn provides details and links from the organization you authorize; messages, scheduling, and other actions are handled by the separate tools you choose.",
+        "developerName": "Sumo Labs LLC",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://gettinylawn.com",
+        "privacyPolicyURL": "https://gettinylawn.com/privacy",
+        "termsOfServiceURL": "https://gettinylawn.com/terms",
+        "brandColor": "#000000",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png",
+        "defaultPrompt": [
+          "Turn my 10 most recent Tinylawn calls into a follow-up plan.",
+          "Show the next page of Tinylawn calls.",
+          "Use my latest call summaries to draft next steps."
+        ]
+      }
+    }
+  },
+  "repository": "https://github.com/tinylawn/tinylawn-plugins",
+  "license": "MIT"
+}
