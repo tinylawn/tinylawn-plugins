@@ -7,17 +7,21 @@ outdoor service businesses. Prepare follow-up plans grounded in saved calls.
 ## Connect
 
 You need a Tinylawn account and membership in the organization you authorize.
-Add the plugin in Claude, open its Connectors tab, and connect Tinylawn.
+Install the published plugin from [Tinylawn in Claude’s directory](https://claude.ai/customize/plugins/id/f13e8f75-6d7a-40c5-b34d-12415a09fb78%40anthropic-plugin-directory),
+or find Tinylawn under Customize > Plugins > Discover and select Add.
+Open its Connectors tab, add tinylawn if it shows Not added, and connect it.
 The connector uses https://app.gettinylawn.com/mcp and OAuth calls:read.
 Sign in to Tinylawn, select one organization, and choose Allow.
 On Team and Enterprise, an organization Owner may need to add the connector first.
+Directory plugins require Claude Pro, Max, Team, or Enterprise, and your
+workspace must allow access to the directory.
 
 Skills and the remote connector work in Claude chat and Cowork.
 In Claude Code, load the local plugin with --plugin-dir, or add the
 tinylawn/tinylawn-plugins marketplace and install tinylawn@tinylawn.
 Use /mcp to complete authentication and /tinylawn:review-calls for the skill.
-An Anthropic directory listing and this GitHub marketplace are separate
-distribution paths. Use the published directory listing when it is available.
+The published Anthropic directory listing and this GitHub marketplace are
+separate distribution paths. Use the directory link above for account installation.
 
 ## Try it
 
