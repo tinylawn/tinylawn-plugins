@@ -1,7 +1,7 @@
 {
   "name": "tinylawn",
-  "version": "1.0.0",
-  "description": "Review calls and saved summaries from Tinylawn, an AI receptionist and answering service for landscaping, lawn care, and pest control businesses.",
+  "version": "1.1.0",
+  "description": "Review Tinylawn calls and service requests, find captured intake, and draft accurate customer follow-ups for landscaping, lawn care, and pest control businesses.",
   "author": {
     "name": "Tinylawn",
     "email": "support@gettinylawn.com",
@@ -16,7 +16,10 @@
     "lawn care",
     "pest control",
     "calls",
-    "summaries"
+    "summaries",
+    "service requests",
+    "intake",
+    "follow-up"
   ],
   "repository": "https://github.com/tinylawn/tinylawn-plugins",
   "license": "MIT",
